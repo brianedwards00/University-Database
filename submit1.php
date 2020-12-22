@@ -12,7 +12,10 @@ if(!con){
   ---------------------------------------------<br/>
   ---------------------------------------------<br/>';
 }
+  
+// Selects all the professors (only one in this case) that satisfy the SSN that the user inputted in the HTML page
 $query = "SELECT * FROM PROFESSORS WHERE prof_SSN=".$_GET["ssn"];
+  
 $result = mysqli_query($con,$query);
 if(mysqli_num_rows($result)<=0) {
   die("SSN Not Found. Please go back and try again.");
@@ -25,7 +28,10 @@ while($row=mysqli_fetch_array($result)) {
   \n";
 }
 
+  
+// Selects all the sections that satisfy the professor's SSN that the user inputted in the HTML page
 $query = "SELECT * FROM SECTION WHERE sec_profSSN=".$_GET["ssn"];
+  
 $result = mysqli_query($con,$query);
 $counter = 1;
 
@@ -34,6 +40,7 @@ while($row=mysqli_fetch_array($result)) {
   <p>Classroom {$counter}: {$row['sec_Classroom']}</p>
   \n"; 
   $sec_courseNum = "'".$row['sec_courseNo']."'";
+// Out of those sections, selects all the meeting days that corresponds with the section number and course number
   $meeting_query = "SELECT * FROM MEETINGDAYS WHERE MD_secNum=".$row['sec_secNum']." AND MD_courseNum=".$sec_courseNum;
   $meeting_result = mysqli_query($con,$meeting_query);
   echo "Meeting Days: ";
