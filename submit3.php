@@ -14,7 +14,9 @@ if(!con){
 }
 
 $stud_course = "'".$_GET["studcourse"]."'";
+// Selects every section where the course number equals the user input's value
 $query = "SELECT * FROM SECTION WHERE sec_courseNo=".$stud_course;
+  
 $result = mysqli_query($con,$query);
 if(mysqli_num_rows($result)<=0) {
     die("Course Not Found. Please go back and try again.");
@@ -28,6 +30,7 @@ while($row=mysqli_fetch_array($result)) {
   
   <p>Classroom: {$row['sec_Classroom']}</p>";
   $sec_courseNum = "'".$row['sec_courseNo']."'";
+  // From those sections found, select the meeting days that correspond with the section and course number
   $meeting_query = "SELECT * FROM MEETINGDAYS WHERE MD_secNum=".$row['sec_secNum']." AND MD_courseNum=".$sec_courseNum;
   $meeting_result = mysqli_query($con,$meeting_query);
   echo "Meeting Days: ";
@@ -37,6 +40,7 @@ while($row=mysqli_fetch_array($result)) {
   }
   
   echo "<p>Class Time: {$row['sec_beginTime']} - {$row['sec_endTime']}</p>";
+  // Counts all the grades in enrollment records where the section and course number equal the user input's value
   $enroll_query = "SELECT COUNT(ER_Grade)
   FROM ENROLLMENTRECORD WHERE ER_secNum=".$row['sec_secNum']." AND ER_courseNum=".$stud_course;
     $enroll_result = mysqli_query($con,$enroll_query);
