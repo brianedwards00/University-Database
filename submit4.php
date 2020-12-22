@@ -12,7 +12,7 @@ if(!con){
   ---------------------------------------------<br/>
   ---------------------------------------------<br/><br/>';
 }
-echo "";
+// Selects every enrollment record where the student's CWID matches the user input to ensure a valid response
 $query = "SELECT * FROM ENROLLMENTRECORD WHERE ER_studCWID=".$_GET["cwid"];
 $result = mysqli_query($con,$query);
 if(mysqli_num_rows($result)<=0) {
@@ -21,6 +21,7 @@ if(mysqli_num_rows($result)<=0) {
 echo "Welcome CWID ".$_GET["cwid"]."<br/>
 ---------------------------------------------<br/>
 ---------------------------------------------<br/><br/>";
+// Selects every enrollment record where the student's CWID matches the user input
 $query = "SELECT * FROM ENROLLMENTRECORD WHERE ER_studCWID=".$_GET["cwid"];
 $result = mysqli_query($con,$query);
 while($row=mysqli_fetch_array($result)) {
