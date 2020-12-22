@@ -15,6 +15,7 @@ if(!con){
 
 $prof_course = "'".$_GET["profcourse"]."'";
 $prof_section = "'".$_GET["profsection"]."'";
+// From enrollment records, select the sum of each grade letter based on the course and section number given
 $query = "SELECT SUM(ER_Grade='A+'),
 SUM(ER_Grade='A'),
 SUM(ER_Grade='A-'),
