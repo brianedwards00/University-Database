@@ -41,7 +41,7 @@ As mentioned, the database is utilized with MariaDB. Here are screenshots of the
 
 ---
 ## Examples
-This program can only effectively work when connected to this online database linked with CSUF. Therefore, it is impossible to connect to the database locally. Due to this, example runs are provided below: <br/><br/>
+This program can only effectively work when connected to this online MariaDB database that is linked with CSUF. Therefore, it is impossible to connect to the database locally. Due to this, example runs are provided below: <br/><br/>
 ![Example1](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/Example%201.gif)
 <br/><br/>
 ![Example2](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/Example%202.gif)
