@@ -30,13 +30,13 @@ As mentioned, the database is utilized with MariaDB. Here are screenshots of the
 ### Enrollment Record
 ![Enrollment Record](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/Enrollment.png)
 <br/><br/>
-### College Degree (Professor)
+### College Degree (Multi-Valued Attribute from Professor)
 ![College Degree](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/College%20Degree.png)
 <br/><br/>
-### Meeting Days (Section)
+### Meeting Days (Multi-Valued Attribute from Section)
 ![Meeting Days](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/Meeting%20Days.png)
 <br/><br/>
-### PreReq Courses (Course)
+### PreReq Courses (Multi-Valued Attribute from Course)
 ![PreReq Course](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/PreReq%20Courses.png)
 
 ---
