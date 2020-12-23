@@ -31,10 +31,10 @@ As mentioned, the database is utilized with MariaDB. Here are screenshots of the
 ![Enrollment Record](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/Enrollment.png)
 <br/><br/>
 ### College Degree (Professor)
-![College Degree](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/College Degree.png)
+![College Degree](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/College%Degree.png)
 <br/><br/>
 ### Meeting Days (Section)
-![Meeting Days](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/Meeting Days.png)
+![Meeting Days](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/Meeting%Days.png)
 <br/><br/>
 ### PreReq Courses (Course)
-![PreReq Course](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/PreReq Courses.png)
+![PreReq Course](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/PreReq%Courses.png)
