@@ -8,3 +8,8 @@ In order to demonstrate knowledge in databases, we have been asked to design a d
 ---
 ## What Am I Offering?
 This project solves the above problem as I created a simple Web Application that connects to a MariaDB database of a university that I also created. This web application utilizes a HTML Front-End and a PHP Back-End which displays the results from the database to the user.
+
+---
+## The Database
+As mentioned, the database is utilized with MariaDB. Here are screenshots of the database.
+![Professor](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/Professor.png)
