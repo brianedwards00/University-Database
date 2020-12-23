@@ -14,3 +14,27 @@ This project solves the above problem as I created a simple Web Application that
 As mentioned, the database is utilized with MariaDB. Here are screenshots of the database: <br/><br/>
 ### Professor
 ![Professor](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/Professor.png)
+<br/><br/>
+### Student
+![Student](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/Student.png)
+<br/><br/>
+### Department
+![Department](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/Department.png)
+<br/><br/>
+### Course
+![Course](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/Course.png)
+<br/><br/>
+### Section
+![Section](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/Section.png)
+<br/><br/>
+### Enrollment Record
+![Enrollment Record](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/Enrollment.png)
+<br/><br/>
+### College Degree (Professor)
+![College Degree](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/College Degree.png)
+<br/><br/>
+### Meeting Days (Section)
+![Meeting Days](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/Meeting Days.png)
+<br/><br/>
+### PreReq Courses (Course)
+![PreReq Course](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/PreReq Courses.png)
