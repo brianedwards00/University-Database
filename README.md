@@ -3,7 +3,7 @@
 ###### CPSC 332 Semester Project at California State University-Fullerton
 ---
 ## What is the Problem?
-In order to demonstrate knowledge in databases, we have been asked to design a database for a mock university. The database created includes professors, students, departments, courses, sections, and enrollment records.
+In order to demonstrate knowledge in databases, we have been asked to design a database for a mock university along with some mock values. The database created includes professors, students, departments, courses, sections, and enrollment records.
 
 ---
 ## What Am I Offering?
