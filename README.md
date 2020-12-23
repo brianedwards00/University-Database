@@ -38,3 +38,8 @@ As mentioned, the database is utilized with MariaDB. Here are screenshots of the
 <br/><br/>
 ### PreReq Courses (Course)
 ![PreReq Course](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/PreReq%20Courses.png)
+
+---
+## Examples
+This program can only effectively work when connected to this online database linked with CSUF. Therefore, it is impossible to connect to the database locally. Due to this, example runs are provided below: <br/><br/>
+![Example1](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/Example%201.gif)
