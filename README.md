@@ -12,5 +12,5 @@ This project solves the above problem as I created a simple Web Application that
 ---
 ## The Database
 As mentioned, the database is utilized with MariaDB. Here are screenshots of the database: <br/><br/>
-###Professor
+### Professor
 ![Professor](https://github.com/brianedwards00/University-Database/blob/main/READ.ME%20Pictures/Professor.png)
